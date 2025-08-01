@@ -15,7 +15,7 @@ export default function Callback() {
       axios
         .post("http://localhost:3001/auth/token", {
           code,
-          redirect_uri: "http://localhost:5173/callback",
+          redirect_uri: "https://alisha-matts.github.io/TuneTrition/callback",
         })
         .then((res) => {
           localStorage.setItem("access_token", res.data.access_token);
