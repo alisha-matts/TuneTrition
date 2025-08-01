@@ -1,6 +1,6 @@
 // client/src/App.jsx
 const clientId = "f0a746abed294e4eaf343ff41e829a94";
-const redirectUri = "https://tune-trition.vercel.app/";
+const redirectUri = "https://alisha-matts.github.io/TuneTrition/callback";
 const scopes = ["user-read-private", "user-read-email", "playlist-read-private"];
 
 const loginUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=code&redirect_uri=${encodeURIComponent(
