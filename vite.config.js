@@ -5,7 +5,4 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: '/TuneTrition/',
   plugins: [react()],
-  server: {
-    host: 'localhost',
-  }
 })
