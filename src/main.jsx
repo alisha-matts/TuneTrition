@@ -14,7 +14,7 @@ if (redirect) {
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter >
+  <BrowserRouter basename="/TuneTrition">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/callback" element={<Callback />} />
